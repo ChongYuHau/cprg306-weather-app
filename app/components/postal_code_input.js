@@ -30,7 +30,7 @@ export default function PostalCodeInput({ onSubmit }) {
             setPostalCode(e.target.value);
             setError(false);
           }}
-          placeholder="e.g., 10001, SW1A 1AA, 123-4567"
+          placeholder="e.g., M5V3L9, SW1A 1AA, 123-4567"
           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button
